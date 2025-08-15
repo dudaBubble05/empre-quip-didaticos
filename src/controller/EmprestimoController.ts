@@ -112,6 +112,8 @@ class EmprestimoController extends Emprestimo {
             return res.json({ mensagem: "Erro ao atualizar emprestimo." });
         }
     }
+
+    
 }
 
 export default EmprestimoController; 
