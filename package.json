@@ -1,26 +1,31 @@
 {
   "name": "empre-equip-didaticos",
   "version": "1.0.0",
-  "main": "dist/server.js",
+  "main": "./src/app.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
-    "dev": "nodemon --watch src --exec ts-node src/server.ts"
+    "start": "node dist/app.js"
   },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^5.1.0",
-    "pg": "^8.16.3"
-  },
+  "keywords": [],
+  "author": "Maria Eduarda Freitas",
+  "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.2.0",
     "@types/pg": "^8.15.5",
+    "i": "^0.3.7",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
     "typescript": "^5.9.2"
-  }
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "description": ""
 }
