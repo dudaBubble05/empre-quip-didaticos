@@ -6,11 +6,11 @@ const SERVER_ROUTES = {
     UNICO_USUARIO: '/lista/usuarioUnico',
     LISTAR_USUARIO: '/lista/usuario',
     
-     NOVO_EQUIPAMENTO: '/novo/equipamento',
+    NOVO_EQUIPAMENTO: '/novo/equipamento',
     ATUALIZAR_EQUIPAMENTO: '/atualiza/equipamento',
     REMOVER_EQUIPAMENTO: '/remove/equipamento',
     LISTAR_EQUIPAMENTO: '/lista/equipamento',
-         
+
     LISTAR_EMPRESTIMOS: '/lista/emprestimo',
     LISTAR_EMPRESTIMOS_DETALHADO: '/lista/emprestimoDetalhado',
     NOVO_EMPRESTIMO: '/novo/emprestimo',
