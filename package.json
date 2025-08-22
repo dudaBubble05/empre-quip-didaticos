@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts"
   },
   "keywords": [],
   "author": "Maria Eduarda Freitas",
